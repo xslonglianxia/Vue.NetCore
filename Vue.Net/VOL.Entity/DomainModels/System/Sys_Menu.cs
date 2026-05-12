@@ -154,5 +154,17 @@ namespace VOL.Entity.DomainModels
 
 
        public List<Sys_Actions> Actions { get; set; }
+
+       [Display(Name = "Path")]
+       [MaxLength(500)]
+       [Column(TypeName = "nvarchar(500)")]
+       [Editable(true)]
+       public string Path { get; set; }
+
+       [Display(Name = "Component")]
+       [MaxLength(500)]
+       [Column(TypeName = "nvarchar(500)")]
+       [Editable(true)]
+       public string Component { get; set; }
     }
 }

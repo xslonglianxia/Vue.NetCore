@@ -285,6 +285,38 @@ namespace VOL.Entity.DomainModels
        [Editable(true)]
        public int? OrderNo { get; set; }
 
-       
+       [Display(Name = "Account")]
+       [MaxLength(200)]
+       [Column(TypeName = "nvarchar(200)")]
+       [Editable(true)]
+       public string Account { get; set; }
+
+       [Display(Name = "Locked")]
+       [Column(TypeName = "tinyint")]
+       [Editable(true)]
+       public byte? Locked { get; set; }
+
+       [Display(Name = "LockCount")]
+       [Column(TypeName = "int")]
+       [Editable(true)]
+       public int? LockCount { get; set; }
+
+       [Display(Name = "LockTime")]
+       [Column(TypeName = "datetime")]
+       [Editable(true)]
+       public DateTime? LockTime { get; set; }
+
+       [Display(Name = "MfaSecret")]
+       [MaxLength(200)]
+       [JsonIgnore]
+       [Column(TypeName = "nvarchar(200)")]
+       public string MfaSecret { get; set; }
+
+       [Display(Name = "LastLoginIp")]
+       [MaxLength(100)]
+       [Column(TypeName = "nvarchar(100)")]
+       [Editable(true)]
+       public string LastLoginIp { get; set; }
+
     }
 }

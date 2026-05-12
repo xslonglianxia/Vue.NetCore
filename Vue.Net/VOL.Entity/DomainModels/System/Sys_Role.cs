@@ -122,6 +122,23 @@ namespace VOL.Entity.DomainModels
         [ForeignKey("Role_Id")]
         public List<Sys_RoleAuth> RoleAuths { get; set; }
 
+        [Display(Name = "Code")]
+        [MaxLength(100)]
+        [Column(TypeName = "nvarchar(100)")]
+        [Editable(true)]
+        public string Code { get; set; }
+
+        [Display(Name = "Description")]
+        [MaxLength(500)]
+        [Column(TypeName = "nvarchar(500)")]
+        [Editable(true)]
+        public string Description { get; set; }
+
+        [Display(Name = "Sort")]
+        [Column(TypeName = "int")]
+        [Editable(true)]
+        public int? Sort { get; set; }
+
     }
 }
 
