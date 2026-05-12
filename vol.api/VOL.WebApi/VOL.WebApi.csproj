@@ -37,6 +37,7 @@
   <ItemGroup>
     <ProjectReference Include="..\VOL.Builder\VOL.Builder.csproj" />
     <ProjectReference Include="..\VOL.Core\VOL.Core.csproj" />
+    <ProjectReference Include="..\VOL.DataCenter\VOL.DataCenter.csproj" />
     <ProjectReference Include="..\VOL.Entity\VOL.Entity.csproj" />
     <ProjectReference Include="..\VOL.MES\VOL.MES.csproj" />
     <ProjectReference Include="..\VOL.Sys\VOL.Sys.csproj" />

@@ -203,10 +203,230 @@ let viewgird = [
     path: '/ProductionState',
     name: 'ProductionState',
     component: () => import('@/views/mes/state/ProductionState.vue')
-  }    ,{
+  },{
         path: '/TestService',
         name: 'TestService',
         component: () => import('@/views/mes/mes/TestService.vue')
+    },
+    {
+        path: '/DC_Home',
+        name: 'DC_Home',
+        component: () => import('@/views/datacenter/home.vue')
+    },
+    {
+        path: '/DC_SysUser',
+        name: 'DC_SysUser',
+        component: () => import('@/views/datacenter/system/users.vue')
+    },
+    {
+        path: '/DC_SysOrg',
+        name: 'DC_SysOrg',
+        component: () => import('@/views/datacenter/system/orgs.vue')
+    },
+    {
+        path: '/DC_SysPosition',
+        name: 'DC_SysPosition',
+        component: () => import('@/views/datacenter/system/positions.vue')
+    },
+    {
+        path: '/DC_SysRole',
+        name: 'DC_SysRole',
+        component: () => import('@/views/datacenter/system/roles.vue')
+    },
+    {
+        path: '/DC_SysGroup',
+        name: 'DC_SysGroup',
+        component: () => import('@/views/datacenter/system/groups.vue')
+    },
+    {
+        path: '/DC_SysStrategy',
+        name: 'DC_SysStrategy',
+        component: () => import('@/views/datacenter/system/strategies.vue')
+    },
+    {
+        path: '/DC_SysOperationLog',
+        name: 'DC_SysOperationLog',
+        component: () => import('@/views/datacenter/system/operationLogs.vue')
+    },
+    {
+        path: '/DC_SysUserLoginLog',
+        name: 'DC_SysUserLoginLog',
+        component: () => import('@/views/datacenter/system/userLoginLogs.vue')
+    },
+    {
+        path: '/DC_SysFileReference',
+        name: 'DC_SysFileReference',
+        component: () => import('@/views/datacenter/system/fileReferences.vue')
+    },
+    {
+        path: '/DC_SysFile',
+        name: 'DC_SysFile',
+        component: () => import('@/views/datacenter/system/files.vue')
+    },
+    {
+        path: '/DC_MktMember',
+        name: 'DC_MktMember',
+        component: () => import('@/views/datacenter/marketing/members.vue')
+    },
+    {
+        path: '/DC_MktLevel',
+        name: 'DC_MktLevel',
+        component: () => import('@/views/datacenter/marketing/levels.vue')
+    },
+    {
+        path: '/DC_MktCategory',
+        name: 'DC_MktCategory',
+        component: () => import('@/views/datacenter/marketing/categories.vue')
+    },
+    {
+        path: '/DC_MktSpu',
+        name: 'DC_MktSpu',
+        component: () => import('@/views/datacenter/marketing/spus.vue')
+    },
+    {
+        path: '/DC_MktOrderDetail',
+        name: 'DC_MktOrderDetail',
+        component: () => import('@/views/datacenter/marketing/orderDetails.vue')
+    },
+    {
+        path: '/DC_MktRechargeRecord',
+        name: 'DC_MktRechargeRecord',
+        component: () => import('@/views/datacenter/marketing/rechargeRecords.vue')
+    },
+    {
+        path: '/DC_MktWithdrawalRecord',
+        name: 'DC_MktWithdrawalRecord',
+        component: () => import('@/views/datacenter/marketing/withdrawalRecords.vue')
+    },
+    {
+        path: '/DC_MktTradingFlow',
+        name: 'DC_MktTradingFlow',
+        component: () => import('@/views/datacenter/marketing/tradingFlows.vue')
+    },
+    {
+        path: '/DC_MktYuebaoAccount',
+        name: 'DC_MktYuebaoAccount',
+        component: () => import('@/views/datacenter/marketing/yuebaoAccounts.vue')
+    },
+    {
+        path: '/DC_MktYuebaoTradingFlow',
+        name: 'DC_MktYuebaoTradingFlow',
+        component: () => import('@/views/datacenter/marketing/yuebaoTradingFlows.vue')
+    },
+    {
+        path: '/DC_MktBanner',
+        name: 'DC_MktBanner',
+        component: () => import('@/views/datacenter/marketing/banners.vue')
+    },
+    {
+        path: '/DC_MktBulletin',
+        name: 'DC_MktBulletin',
+        component: () => import('@/views/datacenter/marketing/bulletins.vue')
+    },
+    {
+        path: '/DC_MktCustomerService',
+        name: 'DC_MktCustomerService',
+        component: () => import('@/views/datacenter/marketing/customerServices.vue')
+    },
+    {
+        path: '/DC_MktSetting',
+        name: 'DC_MktSetting',
+        component: () => import('@/views/datacenter/marketing/settings.vue')
+    },
+    {
+        path: '/DC_MktWithdrawalKind',
+        name: 'DC_MktWithdrawalKind',
+        component: () => import('@/views/datacenter/marketing/withdrawalKinds.vue')
+    },
+    {
+        path: '/DC_MktWallet',
+        name: 'DC_MktWallet',
+        component: () => import('@/views/datacenter/marketing/wallets.vue')
+    },
+    {
+        path: '/DC_MktRecruitment',
+        name: 'DC_MktRecruitment',
+        component: () => import('@/views/datacenter/marketing/recruitments.vue')
+    },
+    {
+        path: '/DC_MktNotice',
+        name: 'DC_MktNotice',
+        component: () => import('@/views/datacenter/marketing/notices.vue')
+    },
+    {
+        path: '/DC_MktMemberLoginLog',
+        name: 'DC_MktMemberLoginLog',
+        component: () => import('@/views/datacenter/marketing/memberLoginLogs.vue')
+    },
+    {
+        path: '/DC_MktWithdrawalAccountApproveLog',
+        name: 'DC_MktWithdrawalAccountApproveLog',
+        component: () => import('@/views/datacenter/marketing/withdrawalAccountApproveLogs.vue')
+    },
+    {
+        path: '/DC_MktMemberDateStatistic',
+        name: 'DC_MktMemberDateStatistic',
+        component: () => import('@/views/datacenter/marketing/memberDateStatistics.vue')
+    },
+    {
+        path: '/DC_MktMemberStatistic',
+        name: 'DC_MktMemberStatistic',
+        component: () => import('@/views/datacenter/marketing/memberStatistics.vue')
+    },
+    {
+        path: '/DC_MktPerformanceStatistic',
+        name: 'DC_MktPerformanceStatistic',
+        component: () => import('@/views/datacenter/marketing/performanceStatistics.vue')
+    },
+    {
+        path: '/DC_MktStatistic',
+        name: 'DC_MktStatistic',
+        component: () => import('@/views/datacenter/marketing/statistics.vue')
+    },
+    {
+        path: '/DC_PtsGift',
+        name: 'DC_PtsGift',
+        component: () => import('@/views/datacenter/points/gifts.vue')
+    },
+    {
+        path: '/DC_PtsAccount',
+        name: 'DC_PtsAccount',
+        component: () => import('@/views/datacenter/points/accounts.vue')
+    },
+    {
+        path: '/DC_PtsFlow',
+        name: 'DC_PtsFlow',
+        component: () => import('@/views/datacenter/points/flows.vue')
+    },
+    {
+        path: '/DC_PtsGiftOrder',
+        name: 'DC_PtsGiftOrder',
+        component: () => import('@/views/datacenter/points/giftOrders.vue')
+    },
+    {
+        path: '/DC_ActActivity',
+        name: 'DC_ActActivity',
+        component: () => import('@/views/datacenter/activities/activities.vue')
+    },
+    {
+        path: '/DC_ActPrize',
+        name: 'DC_ActPrize',
+        component: () => import('@/views/datacenter/activities/prizes.vue')
+    },
+    {
+        path: '/DC_ActAccount',
+        name: 'DC_ActAccount',
+        component: () => import('@/views/datacenter/activities/accounts.vue')
+    },
+    {
+        path: '/DC_ActPartner',
+        name: 'DC_ActPartner',
+        component: () => import('@/views/datacenter/activities/partners.vue')
+    },
+    {
+        path: '/DC_WebCustomer',
+        name: 'DC_WebCustomer',
+        component: () => import('@/views/datacenter/website/customers.vue')
     }]
 
 //上面的demo、MES开头的都是示例菜单，可以任意删除 
