@@ -1,0 +1,1318 @@
+{
+  "meta": {
+    "source": "https://i6p9e8q6-20260430.com",
+    "title": "DataCenter",
+    "framework": "UmiJS + React + Ant Design Pro",
+    "snapshotDate": "2026-05-12",
+    "loginCredentials": {
+      "account": "admin",
+      "password": "lS3%kC6.eP4~dW9"
+    },
+    "authEndpoints": {
+      "login": "/backend/auth/login",
+      "logout": "/backend/auth/logout",
+      "userInfo": "/backend/auth/users/info",
+      "changePassword": "/backend/auth/users/password",
+      "userSettings": "/backend/auth/users/settings"
+    }
+  },
+  "apiEndpoints": {
+    "auth": [
+      "/backend/auth/login",
+      "/backend/auth/logout",
+      "/backend/auth/users/info",
+      "/backend/auth/users/password",
+      "/backend/auth/users/settings"
+    ],
+    "marketing": {
+      "home": [
+        "/backend/marketing/home/badge",
+        "/backend/marketing/home/data/"
+      ],
+      "settings": [
+        "/backend/marketing/settings/safe",
+        "/backend/marketing/settings/website"
+      ],
+      "members": [
+        "/backend/marketing/members",
+        "/backend/marketing/members/{id}"
+      ],
+      "levels": [
+        "/backend/marketing/levels",
+        "/backend/marketing/levels/{id}"
+      ],
+      "notices": [
+        "/backend/marketing/notices",
+        "/backend/marketing/notices/{id}"
+      ],
+      "memberLoginLogs": [
+        "/backend/marketing/member-login-logs",
+        "/backend/marketing/member-login-logs/{id}"
+      ],
+      "memberStatistics": [
+        "/backend/marketing/member-statistics",
+        "/backend/marketing/member-statistics/{id}"
+      ],
+      "memberDateStatistics": [
+        "/backend/marketing/member-date-statistics",
+        "/backend/marketing/member-date-statistics/{id}"
+      ],
+      "performanceStatistics": [
+        "/backend/marketing/performance-statistics",
+        "/backend/marketing/performance-statistics/{id}"
+      ],
+      "memberDuplicateIps": [
+        "/backend/marketing/member-duplicate-ips",
+        "/backend/marketing/member-duplicate-ips/{id}"
+      ],
+      "withdrawalAccountApproveLogs": [
+        "/backend/marketing/withdrawal-account-approve-logs",
+        "/backend/marketing/withdrawal-account-approve-logs/{id}"
+      ],
+      "orderDetails": [
+        "/backend/marketing/order-details",
+        "/backend/marketing/order-details/{id}"
+      ],
+      "rechargeRecords": [
+        "/backend/marketing/recharge-records",
+        "/backend/marketing/recharge-records/{id}"
+      ],
+      "withdrawalRecords": [
+        "/backend/marketing/withdrawal-records",
+        "/backend/marketing/withdrawal-records/{id}"
+      ],
+      "tradingFlows": [
+        "/backend/marketing/trading-flows",
+        "/backend/marketing/trading-flows/{id}"
+      ],
+      "yuebaoAccounts": [
+        "/backend/marketing/yuebao-accounts",
+        "/backend/marketing/yuebao-accounts/{id}"
+      ],
+      "yuebaoTradingFlows": [
+        "/backend/marketing/yuebao-trading-flows",
+        "/backend/marketing/yuebao-trading-flows/{id}"
+      ],
+      "banners": [
+        "/backend/marketing/banners",
+        "/backend/marketing/banners/{id}"
+      ],
+      "bulletins": [
+        "/backend/marketing/bulletins",
+        "/backend/marketing/bulletins/{id}"
+      ],
+      "customerServices": [
+        "/backend/marketing/customer-services",
+        "/backend/marketing/customer-services/{id}"
+      ],
+      "settings": [
+        "/backend/marketing/settings",
+        "/backend/marketing/settings/{id}"
+      ],
+      "statistics": [
+        "/backend/marketing/statistics",
+        "/backend/marketing/statistics/{id}"
+      ],
+      "withdrawalKinds": [
+        "/backend/marketing/withdrawal-kinds",
+        "/backend/marketing/withdrawal-kinds/{id}"
+      ],
+      "wallets": [
+        "/backend/marketing/wallets",
+        "/backend/marketing/wallets/{id}"
+      ],
+      "recruitments": [
+        "/backend/marketing/recruitments",
+        "/backend/marketing/recruitments/{id}"
+      ],
+      "spus": [
+        "/backend/marketing/spus",
+        "/backend/marketing/spus/{id}"
+      ],
+      "categories": [
+        "/backend/marketing/categories",
+        "/backend/marketing/categories/{id}"
+      ]
+    },
+    "points": {
+      "gifts": [
+        "/backend/points/gifts",
+        "/backend/points/gifts/{id}"
+      ],
+      "giftOrders": [
+        "/backend/points/gift-orders",
+        "/backend/points/gift-orders/{id}"
+      ],
+      "accounts": [
+        "/backend/points/accounts",
+        "/backend/points/accounts/{id}"
+      ],
+      "flows": [
+        "/backend/points/flows",
+        "/backend/points/flows/{id}"
+      ]
+    },
+    "activities": {
+      "activities": [
+        "/backend/activities/activities",
+        "/backend/activities/activities/{id}"
+      ],
+      "prizes": [
+        "/backend/activities/prizes",
+        "/backend/activities/prizes/{id}"
+      ],
+      "accounts": [
+        "/backend/activities/accounts",
+        "/backend/activities/accounts/{id}"
+      ],
+      "partners": [
+        "/backend/activities/partners",
+        "/backend/activities/partners/{id}"
+      ]
+    },
+    "websites": {
+      "customers": [
+        "/backend/websites/customers",
+        "/backend/websites/customers/{id}"
+      ]
+    },
+    "system": {
+      "users": [
+        "/backend/system/users",
+        "/backend/system/users/{id}"
+      ],
+      "roles": [
+        "/backend/system/roles",
+        "/backend/system/roles/{id}"
+      ],
+      "groups": [
+        "/backend/system/groups",
+        "/backend/system/groups/{id}"
+      ],
+      "positions": [
+        "/backend/system/positions",
+        "/backend/system/positions/{id}"
+      ],
+      "orgs": [
+        "/backend/system/orgs",
+        "/backend/system/orgs/{id}"
+      ],
+      "strategies": [
+        "/backend/system/strategies",
+        "/backend/system/strategies/{id}"
+      ],
+      "files": [
+        "/backend/system/files",
+        "/backend/system/files/{id}"
+      ],
+      "fileReferences": [
+        "/backend/system/file-references",
+        "/backend/system/file-references/{id}"
+      ],
+      "operationLogs": [
+        "/backend/system/operation-logs",
+        "/backend/system/operation-logs/{id}"
+      ],
+      "userLoginLogs": [
+        "/backend/system/user-login-logs",
+        "/backend/system/user-login-logs/{id}"
+      ]
+    }
+  },
+  "menuStructure": [
+    {
+      "name": "首页",
+      "path": "/home",
+      "icon": "HomeOutlined",
+      "key": "home"
+    },
+    {
+      "name": "营销管理",
+      "path": "/marketing",
+      "icon": "ShopOutlined",
+      "key": "marketing",
+      "children": [
+        { "name": "会员管理", "path": "/marketing/members", "key": "marketing:members" },
+        { "name": "等级管理", "path": "/marketing/levels", "key": "marketing:levels" },
+        { "name": "公告管理", "path": "/marketing/notices", "key": "marketing:notices" },
+        { "name": "会员登录日志", "path": "/marketing/memberLoginLogs", "key": "marketing:memberLoginLogs" },
+        { "name": "会员统计", "path": "/marketing/memberStatistics", "key": "marketing:memberStatistics" },
+        { "name": "会员日期统计", "path": "/marketing/memberDateStatistics", "key": "marketing:memberDateStatistics" },
+        { "name": "业绩统计", "path": "/marketing/performanceStatistics", "key": "marketing:performanceStatistics" },
+        { "name": "会员重复IP", "path": "/marketing/memberDuplicateIps", "key": "marketing:memberDuplicateIps" },
+        { "name": "提现账户审核", "path": "/marketing/withdrawalAccountApproveLogs", "key": "marketing:withdrawalAccountApproveLogs" },
+        { "name": "订单明细", "path": "/marketing/orderDetails", "key": "marketing:orderDetails" },
+        { "name": "充值记录", "path": "/marketing/rechargeRecords", "key": "marketing:rechargeRecords" },
+        { "name": "提现记录", "path": "/marketing/withdrawalRecords", "key": "marketing:withdrawalRecords" },
+        { "name": "交易流水", "path": "/marketing/tradingFlows", "key": "marketing:tradingFlows" },
+        { "name": "余额宝账户", "path": "/marketing/yuebaoAccounts", "key": "marketing:yuebaoAccounts" },
+        { "name": "余额宝交易流水", "path": "/marketing/yuebaoTradingFlows", "key": "marketing:yuebaoTradingFlows" },
+        { "name": "轮播图", "path": "/marketing/banners", "key": "marketing:banners" },
+        { "name": "公告板", "path": "/marketing/bulletins", "key": "marketing:bulletins" },
+        { "name": "客服", "path": "/marketing/customerServices", "key": "marketing:customerServices" },
+        { "name": "系统设置", "path": "/marketing/settings", "key": "marketing:settings" },
+        { "name": "统计", "path": "/marketing/statistics", "key": "marketing:statistics" },
+        { "name": "提现方式", "path": "/marketing/withdrawalKinds", "key": "marketing:withdrawalKinds" },
+        { "name": "钱包", "path": "/marketing/wallets", "key": "marketing:wallets" },
+        { "name": "招募", "path": "/marketing/recruitments", "key": "marketing:recruitments" },
+        { "name": "商品SPU", "path": "/marketing/spus", "key": "marketing:spus" },
+        { "name": "分类", "path": "/marketing/categories", "key": "marketing:categories" }
+      ]
+    },
+    {
+      "name": "积分管理",
+      "path": "/points",
+      "icon": "DollarOutlined",
+      "key": "points",
+      "children": [
+        { "name": "积分礼品", "path": "/points/gifts", "key": "points:gifts" },
+        { "name": "积分兑换订单", "path": "/points/giftOrders", "key": "points:giftOrders" },
+        { "name": "积分账户", "path": "/points/accounts", "key": "points:accounts" },
+        { "name": "积分流水", "path": "/points/flows", "key": "points:flows" }
+      ]
+    },
+    {
+      "name": "活动管理",
+      "path": "/activities",
+      "icon": "GiftOutlined",
+      "key": "activities",
+      "children": [
+        { "name": "活动", "path": "/activities/activities", "key": "activities:activities" },
+        { "name": "奖品", "path": "/activities/prizes", "key": "activities:prizes" },
+        { "name": "参与记录", "path": "/activities/accounts", "key": "activities:accounts" },
+        { "name": "合作方", "path": "/activities/partners", "key": "activities:partners" }
+      ]
+    },
+    {
+      "name": "网站管理",
+      "path": "/websites",
+      "icon": "GlobalOutlined",
+      "key": "websites",
+      "children": [
+        { "name": "站点客户", "path": "/websites/customers", "key": "websites:customers" }
+      ]
+    },
+    {
+      "name": "系统管理",
+      "path": "/system",
+      "icon": "SettingOutlined",
+      "key": "system",
+      "children": [
+        { "name": "用户管理", "path": "/system/users", "key": "system:users" },
+        { "name": "角色管理", "path": "/system/roles", "key": "system:roles" },
+        { "name": "权限分组", "path": "/system/groups", "key": "system:groups" },
+        { "name": "职位管理", "path": "/system/positions", "key": "system:positions" },
+        { "name": "组织机构", "path": "/system/orgs", "key": "system:orgs" },
+        { "name": "权限策略", "path": "/system/strategies", "key": "system:strategies" },
+        { "name": "文件管理", "path": "/system/files", "key": "system:files" },
+        { "name": "文件引用", "path": "/system/fileReferences", "key": "system:fileReferences" },
+        { "name": "操作日志", "path": "/system/operationLogs", "key": "system:operationLogs" },
+        { "name": "登录日志", "path": "/system/userLoginLogs", "key": "system:userLoginLogs" }
+      ]
+    }
+  ],
+  "dataModels": {
+    "system": {
+      "sys_users": {
+        "cnName": "系统用户",
+        "entityName": "Sys_User",
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "Account", "type": "nvarchar(200)", "required": true },
+          { "name": "UserPwd", "type": "nvarchar(200)", "required": false, "jsonIgnore": true },
+          { "name": "UserName", "type": "nvarchar(100)", "required": true },
+          { "name": "Phone", "type": "nvarchar(100)", "required": false },
+          { "name": "Email", "type": "nvarchar(200)", "required": false },
+          { "name": "HeadImageUrl", "type": "nvarchar(500)", "required": false },
+          { "name": "Role_Id", "type": "int", "required": false },
+          { "name": "OrgId", "type": "bigint", "nullable": true },
+          { "name": "PositionId", "type": "bigint", "nullable": true },
+          { "name": "Enable", "type": "tinyint", "nullable": true },
+          { "name": "Locked", "type": "tinyint", "required": true },
+          { "name": "LockCount", "type": "int", "required": true },
+          { "name": "LockTime", "type": "datetime", "nullable": true },
+          { "name": "LastLoginTime", "type": "datetime", "nullable": true },
+          { "name": "LastLoginIp", "type": "nvarchar(100)", "required": false },
+          { "name": "LastModifyPwdTime", "type": "datetime", "nullable": true },
+          { "name": "MfaSecret", "type": "nvarchar(200)", "required": false, "jsonIgnore": true },
+          { "name": "CreateID", "type": "int", "nullable": true },
+          { "name": "Creator", "type": "nvarchar(200)", "nullable": true },
+          { "name": "CreateDate", "type": "datetime", "nullable": true },
+          { "name": "ModifyID", "type": "int", "nullable": true },
+          { "name": "Modifier", "type": "nvarchar(200)", "nullable": true },
+          { "name": "ModifyDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "sys_roles": {
+        "cnName": "角色",
+        "entityName": "Sys_Role",
+        "primaryKey": { "name": "Id", "type": "int" },
+        "fields": [
+          { "name": "Id", "type": "int", "key": true, "required": true },
+          { "name": "RoleName", "type": "nvarchar(200)", "required": true },
+          { "name": "Code", "type": "nvarchar(100)", "required": false },
+          { "name": "Description", "type": "nvarchar(500)", "required": false },
+          { "name": "Sort", "type": "int", "required": true },
+          { "name": "Enable", "type": "tinyint", "nullable": true },
+          { "name": "DeptName", "type": "nvarchar(200)", "nullable": true },
+          { "name": "Dept_Id", "type": "int", "nullable": true },
+          { "name": "CreateID", "type": "int", "nullable": true },
+          { "name": "Creator", "type": "nvarchar(200)", "nullable": true },
+          { "name": "CreateDate", "type": "datetime", "nullable": true },
+          { "name": "ModifyID", "type": "int", "nullable": true },
+          { "name": "Modifier", "type": "nvarchar(200)", "nullable": true },
+          { "name": "ModifyDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "sys_groups": {
+        "cnName": "权限分组",
+        "entityName": "Sys_Group",
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "Name", "type": "nvarchar(200)", "required": true },
+          { "name": "Code", "type": "nvarchar(100)", "required": true },
+          { "name": "Description", "type": "nvarchar(500)", "required": false },
+          { "name": "Sort", "type": "int", "required": true },
+          { "name": "Enable", "type": "tinyint", "required": true },
+          { "name": "CreateID", "type": "int", "nullable": true },
+          { "name": "Creator", "type": "nvarchar(200)", "nullable": true },
+          { "name": "CreateDate", "type": "datetime", "nullable": true },
+          { "name": "ModifyID", "type": "int", "nullable": true },
+          { "name": "Modifier", "type": "nvarchar(200)", "nullable": true },
+          { "name": "ModifyDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "sys_positions": {
+        "cnName": "职位",
+        "entityName": "Sys_Position",
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "Name", "type": "nvarchar(200)", "required": true },
+          { "name": "Code", "type": "nvarchar(100)", "required": true },
+          { "name": "Description", "type": "nvarchar(500)", "required": false },
+          { "name": "Sort", "type": "int", "required": true },
+          { "name": "Enable", "type": "tinyint", "required": true },
+          { "name": "CreateID", "type": "int", "nullable": true },
+          { "name": "Creator", "type": "nvarchar(200)", "nullable": true },
+          { "name": "CreateDate", "type": "datetime", "nullable": true },
+          { "name": "ModifyID", "type": "int", "nullable": true },
+          { "name": "Modifier", "type": "nvarchar(200)", "nullable": true },
+          { "name": "ModifyDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "sys_orgs": {
+        "cnName": "组织机构",
+        "entityName": "Sys_Org",
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "ParentId", "type": "bigint", "nullable": true },
+          { "name": "Name", "type": "nvarchar(200)", "required": true },
+          { "name": "Code", "type": "nvarchar(100)", "required": true },
+          { "name": "Description", "type": "nvarchar(500)", "required": false },
+          { "name": "Sort", "type": "int", "required": true },
+          { "name": "Enable", "type": "tinyint", "required": true },
+          { "name": "CreateID", "type": "int", "nullable": true },
+          { "name": "Creator", "type": "nvarchar(200)", "nullable": true },
+          { "name": "CreateDate", "type": "datetime", "nullable": true },
+          { "name": "ModifyID", "type": "int", "nullable": true },
+          { "name": "Modifier", "type": "nvarchar(200)", "nullable": true },
+          { "name": "ModifyDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "sys_strategies": {
+        "cnName": "权限策略",
+        "entityName": "Sys_Strategy",
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "Name", "type": "nvarchar(200)", "required": true },
+          { "name": "Code", "type": "nvarchar(100)", "required": true },
+          { "name": "Description", "type": "nvarchar(500)", "required": false },
+          { "name": "Content", "type": "nvarchar(max)", "required": false },
+          { "name": "Sort", "type": "int", "required": true },
+          { "name": "Enable", "type": "tinyint", "required": true },
+          { "name": "CreateID", "type": "int", "nullable": true },
+          { "name": "Creator", "type": "nvarchar(200)", "nullable": true },
+          { "name": "CreateDate", "type": "datetime", "nullable": true },
+          { "name": "ModifyID", "type": "int", "nullable": true },
+          { "name": "Modifier", "type": "nvarchar(200)", "nullable": true },
+          { "name": "ModifyDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "sys_files": {
+        "cnName": "文件",
+        "entityName": "Sys_File",
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "Name", "type": "nvarchar(500)", "required": true },
+          { "name": "OriginalName", "type": "nvarchar(500)", "required": true },
+          { "name": "Extension", "type": "nvarchar(50)", "required": false },
+          { "name": "Size", "type": "bigint", "required": true },
+          { "name": "MimeType", "type": "nvarchar(200)", "required": false },
+          { "name": "Path", "type": "nvarchar(1000)", "required": true },
+          { "name": "Hash", "type": "nvarchar(200)", "required": false },
+          { "name": "StorageType", "type": "int", "required": true },
+          { "name": "CreateID", "type": "int", "nullable": true },
+          { "name": "Creator", "type": "nvarchar(200)", "nullable": true },
+          { "name": "CreateDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "sys_file_references": {
+        "cnName": "文件引用",
+        "entityName": "Sys_FileReference",
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "FileId", "type": "bigint", "required": true },
+          { "name": "EntityType", "type": "nvarchar(200)", "required": true },
+          { "name": "EntityId", "type": "bigint", "required": true },
+          { "name": "FieldName", "type": "nvarchar(200)", "required": true },
+          { "name": "Sort", "type": "int", "required": true },
+          { "name": "CreateID", "type": "int", "nullable": true },
+          { "name": "Creator", "type": "nvarchar(200)", "nullable": true },
+          { "name": "CreateDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "sys_operation_logs": {
+        "cnName": "操作日志",
+        "entityName": "Sys_OperationLog",
+        "readonly": true,
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "UserId", "type": "int", "nullable": true },
+          { "name": "UserName", "type": "nvarchar(200)", "required": false },
+          { "name": "Module", "type": "nvarchar(200)", "required": false },
+          { "name": "Action", "type": "nvarchar(200)", "required": false },
+          { "name": "Method", "type": "nvarchar(50)", "required": false },
+          { "name": "Url", "type": "nvarchar(1000)", "required": false },
+          { "name": "Ip", "type": "nvarchar(100)", "required": false },
+          { "name": "UserAgent", "type": "nvarchar(1000)", "required": false },
+          { "name": "RequestData", "type": "nvarchar(max)", "required": false },
+          { "name": "ResponseData", "type": "nvarchar(max)", "required": false },
+          { "name": "Duration", "type": "int", "nullable": true },
+          { "name": "CreateDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "sys_user_login_logs": {
+        "cnName": "登录日志",
+        "entityName": "Sys_UserLoginLog",
+        "readonly": true,
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "UserId", "type": "int", "nullable": true },
+          { "name": "UserName", "type": "nvarchar(200)", "required": false },
+          { "name": "LoginType", "type": "int", "nullable": true },
+          { "name": "Ip", "type": "nvarchar(100)", "required": false },
+          { "name": "Location", "type": "nvarchar(200)", "required": false },
+          { "name": "UserAgent", "type": "nvarchar(1000)", "required": false },
+          { "name": "Browser", "type": "nvarchar(200)", "required": false },
+          { "name": "Os", "type": "nvarchar(200)", "required": false },
+          { "name": "Status", "type": "int", "nullable": true },
+          { "name": "Message", "type": "nvarchar(500)", "required": false },
+          { "name": "CreateDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "sys_menus": {
+        "cnName": "菜单",
+        "entityName": "Sys_Menu",
+        "primaryKey": { "name": "MenuId", "type": "int" },
+        "fields": [
+          { "name": "MenuId", "type": "int", "key": true, "required": true },
+          { "name": "ParentId", "type": "int", "nullable": true },
+          { "name": "MenuName", "type": "nvarchar(200)", "required": true },
+          { "name": "Path", "type": "nvarchar(500)", "required": false },
+          { "name": "Icon", "type": "nvarchar(200)", "nullable": true },
+          { "name": "Component", "type": "nvarchar(500)", "required": false },
+          { "name": "Sort", "type": "int", "nullable": true },
+          { "name": "Enable", "type": "tinyint", "nullable": true },
+          { "name": "CreateID", "type": "int", "nullable": true },
+          { "name": "Creator", "type": "nvarchar(200)", "nullable": true },
+          { "name": "CreateDate", "type": "datetime", "nullable": true },
+          { "name": "ModifyID", "type": "int", "nullable": true },
+          { "name": "Modifier", "type": "nvarchar(200)", "nullable": true },
+          { "name": "ModifyDate", "type": "datetime", "nullable": true }
+        ]
+      }
+    },
+    "marketing": {
+      "mkt_members": {
+        "cnName": "会员",
+        "entityName": "MktMember",
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "Username", "type": "nvarchar(100)", "required": true },
+          { "name": "Nickname", "type": "nvarchar(100)", "required": false },
+          { "name": "Phone", "type": "nvarchar(20)", "required": false },
+          { "name": "Email", "type": "nvarchar(200)", "required": false },
+          { "name": "Avatar", "type": "nvarchar(500)", "required": false },
+          { "name": "LevelId", "type": "bigint", "nullable": true },
+          { "name": "ParentId", "type": "bigint", "nullable": true },
+          { "name": "Balance", "type": "decimal(18,2)", "required": true },
+          { "name": "FrozenBalance", "type": "decimal(18,2)", "required": true },
+          { "name": "CommissionBalance", "type": "decimal(18,2)", "required": true },
+          { "name": "TotalRecharge", "type": "decimal(18,2)", "required": true },
+          { "name": "TotalWithdrawal", "type": "decimal(18,2)", "required": true },
+          { "name": "TotalCommission", "type": "decimal(18,2)", "required": true },
+          { "name": "Ip", "type": "nvarchar(100)", "required": false },
+          { "name": "LastLoginTime", "type": "datetime", "nullable": true },
+          { "name": "LastLoginIp", "type": "nvarchar(100)", "required": false },
+          { "name": "Status", "type": "int", "required": true },
+          { "name": "RealName", "type": "nvarchar(50)", "required": false },
+          { "name": "IdCard", "type": "nvarchar(50)", "required": false },
+          { "name": "BankName", "type": "nvarchar(200)", "required": false },
+          { "name": "BankAccount", "type": "nvarchar(100)", "required": false },
+          { "name": "BankBranch", "type": "nvarchar(200)", "required": false },
+          { "name": "InviteCode", "type": "nvarchar(50)", "required": false },
+          { "name": "CreateID", "type": "int", "nullable": true },
+          { "name": "Creator", "type": "nvarchar(200)", "nullable": true },
+          { "name": "CreateDate", "type": "datetime", "nullable": true },
+          { "name": "ModifyID", "type": "int", "nullable": true },
+          { "name": "Modifier", "type": "nvarchar(200)", "nullable": true },
+          { "name": "ModifyDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "mkt_levels": {
+        "cnName": "等级",
+        "entityName": "MktLevel",
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "Name", "type": "nvarchar(100)", "required": true },
+          { "name": "Icon", "type": "nvarchar(500)", "required": false },
+          { "name": "MinAmount", "type": "decimal(18,2)", "required": true },
+          { "name": "MaxAmount", "type": "decimal(18,2)", "required": true },
+          { "name": "Discount", "type": "decimal(5,2)", "required": true },
+          { "name": "Sort", "type": "int", "required": true },
+          { "name": "Enable", "type": "tinyint", "required": true },
+          { "name": "CreateID", "type": "int", "nullable": true },
+          { "name": "Creator", "type": "nvarchar(200)", "nullable": true },
+          { "name": "CreateDate", "type": "datetime", "nullable": true },
+          { "name": "ModifyID", "type": "int", "nullable": true },
+          { "name": "Modifier", "type": "nvarchar(200)", "nullable": true },
+          { "name": "ModifyDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "mkt_notices": {
+        "cnName": "公告",
+        "entityName": "MktNotice",
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "Title", "type": "nvarchar(500)", "required": true },
+          { "name": "Content", "type": "nvarchar(max)", "required": false },
+          { "name": "Type", "type": "int", "required": true },
+          { "name": "Sort", "type": "int", "required": true },
+          { "name": "Enable", "type": "tinyint", "required": true },
+          { "name": "PublishTime", "type": "datetime", "nullable": true },
+          { "name": "CreateID", "type": "int", "nullable": true },
+          { "name": "Creator", "type": "nvarchar(200)", "nullable": true },
+          { "name": "CreateDate", "type": "datetime", "nullable": true },
+          { "name": "ModifyID", "type": "int", "nullable": true },
+          { "name": "Modifier", "type": "nvarchar(200)", "nullable": true },
+          { "name": "ModifyDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "mkt_member_login_logs": {
+        "cnName": "会员登录日志",
+        "entityName": "MktMemberLoginLog",
+        "readonly": true,
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "MemberId", "type": "bigint", "nullable": true },
+          { "name": "Username", "type": "nvarchar(100)", "required": false },
+          { "name": "Ip", "type": "nvarchar(100)", "required": false },
+          { "name": "Location", "type": "nvarchar(200)", "required": false },
+          { "name": "UserAgent", "type": "nvarchar(1000)", "required": false },
+          { "name": "Browser", "type": "nvarchar(200)", "required": false },
+          { "name": "Os", "type": "nvarchar(200)", "required": false },
+          { "name": "CreateDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "mkt_member_statistics": {
+        "cnName": "会员统计",
+        "entityName": "MktMemberStatistic",
+        "readonly": true,
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "MemberId", "type": "bigint", "nullable": true },
+          { "name": "Username", "type": "nvarchar(100)", "required": false },
+          { "name": "RechargeAmount", "type": "decimal(18,2)", "required": true },
+          { "name": "WithdrawalAmount", "type": "decimal(18,2)", "required": true },
+          { "name": "CommissionAmount", "type": "decimal(18,2)", "required": true },
+          { "name": "GiveAmount", "type": "decimal(18,2)", "required": true },
+          { "name": "OrderNumber", "type": "int", "required": true },
+          { "name": "Date", "type": "datetime", "nullable": true },
+          { "name": "CreateDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "mkt_member_date_statistics": {
+        "cnName": "会员日期统计",
+        "entityName": "MktMemberDateStatistic",
+        "readonly": true,
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "Date", "type": "datetime", "nullable": true },
+          { "name": "MemberNumber", "type": "int", "required": true },
+          { "name": "RechargeAmount", "type": "decimal(18,2)", "required": true },
+          { "name": "RechargeNumber", "type": "int", "required": true },
+          { "name": "WithdrawalAmount", "type": "decimal(18,2)", "required": true },
+          { "name": "WithdrawalNumber", "type": "int", "required": true },
+          { "name": "CommissionAmount", "type": "decimal(18,2)", "required": true },
+          { "name": "CommissionNumber", "type": "int", "required": true },
+          { "name": "ParentCommissionAmount", "type": "decimal(18,2)", "required": true },
+          { "name": "ParentCommissionNumber", "type": "int", "required": true },
+          { "name": "GiveAmount", "type": "decimal(18,2)", "required": true },
+          { "name": "GiveNumber", "type": "int", "required": true },
+          { "name": "SignAmount", "type": "decimal(18,2)", "required": true },
+          { "name": "SignNumber", "type": "int", "required": true },
+          { "name": "OrderNumber", "type": "int", "required": true },
+          { "name": "BetNumber", "type": "int", "required": true },
+          { "name": "TaskCompleteNumber", "type": "int", "required": true },
+          { "name": "ResetNumber", "type": "int", "required": true },
+          { "name": "CreateDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "mkt_performance_statistics": {
+        "cnName": "业绩统计",
+        "entityName": "MktPerformanceStatistic",
+        "readonly": true,
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "MemberId", "type": "bigint", "nullable": true },
+          { "name": "Username", "type": "nvarchar(100)", "required": false },
+          { "name": "Nickname", "type": "nvarchar(100)", "required": false },
+          { "name": "LevelName", "type": "nvarchar(100)", "required": false },
+          { "name": "ParentUsername", "type": "nvarchar(100)", "required": false },
+          { "name": "RechargeAmount", "type": "decimal(18,2)", "required": true },
+          { "name": "WithdrawalAmount", "type": "decimal(18,2)", "required": true },
+          { "name": "CommissionAmount", "type": "decimal(18,2)", "required": true },
+          { "name": "ParentCommissionAmount", "type": "decimal(18,2)", "required": true },
+          { "name": "FirstRechargeDate", "type": "datetime", "nullable": true },
+          { "name": "LastRechargeDate", "type": "datetime", "nullable": true },
+          { "name": "CreateDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "mkt_member_duplicate_ips": {
+        "cnName": "会员重复IP",
+        "entityName": "MktMemberDuplicateIp",
+        "readonly": true,
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "Ip", "type": "nvarchar(100)", "required": true },
+          { "name": "MemberCount", "type": "int", "required": true },
+          { "name": "MemberIds", "type": "nvarchar(max)", "required": false },
+          { "name": "CreateDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "mkt_withdrawal_account_approve_logs": {
+        "cnName": "提现账户审核",
+        "entityName": "MktWithdrawalAccountApproveLog",
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "MemberId", "type": "bigint", "nullable": true },
+          { "name": "Username", "type": "nvarchar(100)", "required": false },
+          { "name": "RealName", "type": "nvarchar(50)", "required": false },
+          { "name": "BankName", "type": "nvarchar(200)", "required": false },
+          { "name": "BankAccount", "type": "nvarchar(100)", "required": false },
+          { "name": "Status", "type": "int", "required": true },
+          { "name": "ApproveUserId", "type": "int", "nullable": true },
+          { "name": "ApproveUserName", "type": "nvarchar(200)", "required": false },
+          { "name": "ApproveTime", "type": "datetime", "nullable": true },
+          { "name": "Remark", "type": "nvarchar(500)", "required": false },
+          { "name": "CreateDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "mkt_order_details": {
+        "cnName": "订单明细",
+        "entityName": "MktOrderDetail",
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "OrderNo", "type": "nvarchar(100)", "required": true },
+          { "name": "MemberId", "type": "bigint", "nullable": true },
+          { "name": "Username", "type": "nvarchar(100)", "required": false },
+          { "name": "ProductName", "type": "nvarchar(500)", "required": false },
+          { "name": "Amount", "type": "decimal(18,2)", "required": true },
+          { "name": "CommissionRate", "type": "decimal(5,2)", "required": true },
+          { "name": "CommissionAmount", "type": "decimal(18,2)", "required": true },
+          { "name": "ParentCommissionAmount", "type": "decimal(18,2)", "required": true },
+          { "name": "Status", "type": "int", "required": true },
+          { "name": "Type", "type": "int", "required": true },
+          { "name": "CreateDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "mkt_recharge_records": {
+        "cnName": "充值记录",
+        "entityName": "MktRechargeRecord",
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "OrderNo", "type": "nvarchar(100)", "required": true },
+          { "name": "MemberId", "type": "bigint", "nullable": true },
+          { "name": "Username", "type": "nvarchar(100)", "required": false },
+          { "name": "Amount", "type": "decimal(18,2)", "required": true },
+          { "name": "GiveAmount", "type": "decimal(18,2)", "required": true },
+          { "name": "PaymentMethod", "type": "int", "nullable": true },
+          { "name": "PaymentChannel", "type": "nvarchar(100)", "required": false },
+          { "name": "Status", "type": "int", "required": true },
+          { "name": "AuditStatus", "type": "int", "nullable": true },
+          { "name": "AuditUserId", "type": "int", "nullable": true },
+          { "name": "AuditUserName", "type": "nvarchar(200)", "required": false },
+          { "name": "AuditTime", "type": "datetime", "nullable": true },
+          { "name": "Visible", "type": "tinyint", "required": true },
+          { "name": "Remark", "type": "nvarchar(500)", "required": false },
+          { "name": "CreateDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "mkt_withdrawal_records": {
+        "cnName": "提现记录",
+        "entityName": "MktWithdrawalRecord",
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "OrderNo", "type": "nvarchar(100)", "required": true },
+          { "name": "MemberId", "type": "bigint", "nullable": true },
+          { "name": "Username", "type": "nvarchar(100)", "required": false },
+          { "name": "Amount", "type": "decimal(18,2)", "required": true },
+          { "name": "Fee", "type": "decimal(18,2)", "required": true },
+          { "name": "RealAmount", "type": "decimal(18,2)", "required": true },
+          { "name": "BankName", "type": "nvarchar(200)", "required": false },
+          { "name": "BankAccount", "type": "nvarchar(100)", "required": false },
+          { "name": "RealName", "type": "nvarchar(50)", "required": false },
+          { "name": "Status", "type": "int", "required": true },
+          { "name": "AuditStatus", "type": "int", "nullable": true },
+          { "name": "AuditUserId", "type": "int", "nullable": true },
+          { "name": "AuditUserName", "type": "nvarchar(200)", "required": false },
+          { "name": "AuditTime", "type": "datetime", "nullable": true },
+          { "name": "Visible", "type": "tinyint", "required": true },
+          { "name": "Remark", "type": "nvarchar(500)", "required": false },
+          { "name": "CreateDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "mkt_trading_flows": {
+        "cnName": "交易流水",
+        "entityName": "MktTradingFlow",
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "MemberId", "type": "bigint", "nullable": true },
+          { "name": "Username", "type": "nvarchar(100)", "required": false },
+          { "name": "Type", "type": "int", "required": true },
+          { "name": "Amount", "type": "decimal(18,2)", "required": true },
+          { "name": "BeforeBalance", "type": "decimal(18,2)", "required": true },
+          { "name": "AfterBalance", "type": "decimal(18,2)", "required": true },
+          { "name": "OrderNo", "type": "nvarchar(100)", "required": false },
+          { "name": "Remark", "type": "nvarchar(500)", "required": false },
+          { "name": "Visible", "type": "tinyint", "required": true },
+          { "name": "CreateDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "mkt_yuebao_accounts": {
+        "cnName": "余额宝账户",
+        "entityName": "MktYuebaoAccount",
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "MemberId", "type": "bigint", "nullable": true },
+          { "name": "Username", "type": "nvarchar(100)", "required": false },
+          { "name": "Balance", "type": "decimal(18,2)", "required": true },
+          { "name": "YesterdayProfit", "type": "decimal(18,2)", "required": true },
+          { "name": "TotalProfit", "type": "decimal(18,2)", "required": true },
+          { "name": "CreateDate", "type": "datetime", "nullable": true },
+          { "name": "ModifyDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "mkt_yuebao_trading_flows": {
+        "cnName": "余额宝交易流水",
+        "entityName": "MktYuebaoTradingFlow",
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "MemberId", "type": "bigint", "nullable": true },
+          { "name": "Username", "type": "nvarchar(100)", "required": false },
+          { "name": "Type", "type": "int", "required": true },
+          { "name": "Amount", "type": "decimal(18,2)", "required": true },
+          { "name": "BeforeBalance", "type": "decimal(18,2)", "required": true },
+          { "name": "AfterBalance", "type": "decimal(18,2)", "required": true },
+          { "name": "Profit", "type": "decimal(18,2)", "required": true },
+          { "name": "Remark", "type": "nvarchar(500)", "required": false },
+          { "name": "Visible", "type": "tinyint", "required": true },
+          { "name": "CreateDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "mkt_banners": {
+        "cnName": "轮播图",
+        "entityName": "MktBanner",
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "Title", "type": "nvarchar(200)", "required": true },
+          { "name": "Image", "type": "nvarchar(500)", "required": false },
+          { "name": "Link", "type": "nvarchar(1000)", "required": false },
+          { "name": "Sort", "type": "int", "required": true },
+          { "name": "Enable", "type": "tinyint", "required": true },
+          { "name": "CreateID", "type": "int", "nullable": true },
+          { "name": "Creator", "type": "nvarchar(200)", "nullable": true },
+          { "name": "CreateDate", "type": "datetime", "nullable": true },
+          { "name": "ModifyID", "type": "int", "nullable": true },
+          { "name": "Modifier", "type": "nvarchar(200)", "nullable": true },
+          { "name": "ModifyDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "mkt_bulletins": {
+        "cnName": "公告板",
+        "entityName": "MktBulletin",
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "Title", "type": "nvarchar(500)", "required": true },
+          { "name": "Content", "type": "nvarchar(max)", "required": false },
+          { "name": "Sort", "type": "int", "required": true },
+          { "name": "Enable", "type": "tinyint", "required": true },
+          { "name": "PublishTime", "type": "datetime", "nullable": true },
+          { "name": "CreateID", "type": "int", "nullable": true },
+          { "name": "Creator", "type": "nvarchar(200)", "nullable": true },
+          { "name": "CreateDate", "type": "datetime", "nullable": true },
+          { "name": "ModifyID", "type": "int", "nullable": true },
+          { "name": "Modifier", "type": "nvarchar(200)", "nullable": true },
+          { "name": "ModifyDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "mkt_customer_services": {
+        "cnName": "客服",
+        "entityName": "MktCustomerService",
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "Title", "type": "nvarchar(200)", "required": true },
+          { "name": "Content", "type": "nvarchar(max)", "required": false },
+          { "name": "Type", "type": "int", "required": true },
+          { "name": "Sort", "type": "int", "required": true },
+          { "name": "Enable", "type": "tinyint", "required": true },
+          { "name": "CreateID", "type": "int", "nullable": true },
+          { "name": "Creator", "type": "nvarchar(200)", "nullable": true },
+          { "name": "CreateDate", "type": "datetime", "nullable": true },
+          { "name": "ModifyID", "type": "int", "nullable": true },
+          { "name": "Modifier", "type": "nvarchar(200)", "nullable": true },
+          { "name": "ModifyDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "mkt_settings": {
+        "cnName": "系统设置",
+        "entityName": "MktSetting",
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "Key", "type": "nvarchar(200)", "required": true },
+          { "name": "Value", "type": "nvarchar(max)", "required": false },
+          { "name": "Description", "type": "nvarchar(500)", "required": false },
+          { "name": "GroupName", "type": "nvarchar(100)", "required": false },
+          { "name": "Sort", "type": "int", "required": true },
+          { "name": "CreateID", "type": "int", "nullable": true },
+          { "name": "Creator", "type": "nvarchar(200)", "nullable": true },
+          { "name": "CreateDate", "type": "datetime", "nullable": true },
+          { "name": "ModifyID", "type": "int", "nullable": true },
+          { "name": "Modifier", "type": "nvarchar(200)", "nullable": true },
+          { "name": "ModifyDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "mkt_statistics": {
+        "cnName": "统计",
+        "entityName": "MktStatistic",
+        "readonly": true,
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "Date", "type": "datetime", "nullable": true },
+          { "name": "RechargeAmount", "type": "decimal(18,2)", "required": true },
+          { "name": "WithdrawalAmount", "type": "decimal(18,2)", "required": true },
+          { "name": "CommissionAmount", "type": "decimal(18,2)", "required": true },
+          { "name": "MemberNumber", "type": "int", "required": true },
+          { "name": "OrderNumber", "type": "int", "required": true },
+          { "name": "CreateDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "mkt_withdrawal_kinds": {
+        "cnName": "提现方式",
+        "entityName": "MktWithdrawalKind",
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "Name", "type": "nvarchar(100)", "required": true },
+          { "name": "Code", "type": "nvarchar(100)", "required": true },
+          { "name": "MinAmount", "type": "decimal(18,2)", "required": true },
+          { "name": "MaxAmount", "type": "decimal(18,2)", "required": true },
+          { "name": "FeeRate", "type": "decimal(5,2)", "required": true },
+          { "name": "FeeFixed", "type": "decimal(18,2)", "required": true },
+          { "name": "Sort", "type": "int", "required": true },
+          { "name": "Enable", "type": "tinyint", "required": true },
+          { "name": "CreateID", "type": "int", "nullable": true },
+          { "name": "Creator", "type": "nvarchar(200)", "nullable": true },
+          { "name": "CreateDate", "type": "datetime", "nullable": true },
+          { "name": "ModifyID", "type": "int", "nullable": true },
+          { "name": "Modifier", "type": "nvarchar(200)", "nullable": true },
+          { "name": "ModifyDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "mkt_wallets": {
+        "cnName": "钱包",
+        "entityName": "MktWallet",
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "MemberId", "type": "bigint", "nullable": true },
+          { "name": "Username", "type": "nvarchar(100)", "required": false },
+          { "name": "Balance", "type": "decimal(18,2)", "required": true },
+          { "name": "FrozenBalance", "type": "decimal(18,2)", "required": true },
+          { "name": "CommissionBalance", "type": "decimal(18,2)", "required": true },
+          { "name": "CreateDate", "type": "datetime", "nullable": true },
+          { "name": "ModifyDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "mkt_recruitments": {
+        "cnName": "招募",
+        "entityName": "MktRecruitment",
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "Title", "type": "nvarchar(200)", "required": true },
+          { "name": "Content", "type": "nvarchar(max)", "required": false },
+          { "name": "Image", "type": "nvarchar(500)", "required": false },
+          { "name": "Sort", "type": "int", "required": true },
+          { "name": "Enable", "type": "tinyint", "required": true },
+          { "name": "CreateID", "type": "int", "nullable": true },
+          { "name": "Creator", "type": "nvarchar(200)", "nullable": true },
+          { "name": "CreateDate", "type": "datetime", "nullable": true },
+          { "name": "ModifyID", "type": "int", "nullable": true },
+          { "name": "Modifier", "type": "nvarchar(200)", "nullable": true },
+          { "name": "ModifyDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "mkt_spus": {
+        "cnName": "商品SPU",
+        "entityName": "MktSpu",
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "Name", "type": "nvarchar(200)", "required": true },
+          { "name": "CategoryId", "type": "bigint", "nullable": true },
+          { "name": "Price", "type": "decimal(18,2)", "required": true },
+          { "name": "CommissionRate", "type": "decimal(5,2)", "required": true },
+          { "name": "Image", "type": "nvarchar(500)", "required": false },
+          { "name": "Description", "type": "nvarchar(max)", "required": false },
+          { "name": "Sort", "type": "int", "required": true },
+          { "name": "Enable", "type": "tinyint", "required": true },
+          { "name": "CreateID", "type": "int", "nullable": true },
+          { "name": "Creator", "type": "nvarchar(200)", "nullable": true },
+          { "name": "CreateDate", "type": "datetime", "nullable": true },
+          { "name": "ModifyID", "type": "int", "nullable": true },
+          { "name": "Modifier", "type": "nvarchar(200)", "nullable": true },
+          { "name": "ModifyDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "mkt_categories": {
+        "cnName": "分类",
+        "entityName": "MktCategory",
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "Name", "type": "nvarchar(100)", "required": true },
+          { "name": "Icon", "type": "nvarchar(500)", "required": false },
+          { "name": "Sort", "type": "int", "required": true },
+          { "name": "Enable", "type": "tinyint", "required": true },
+          { "name": "CreateID", "type": "int", "nullable": true },
+          { "name": "Creator", "type": "nvarchar(200)", "nullable": true },
+          { "name": "CreateDate", "type": "datetime", "nullable": true },
+          { "name": "ModifyID", "type": "int", "nullable": true },
+          { "name": "Modifier", "type": "nvarchar(200)", "nullable": true },
+          { "name": "ModifyDate", "type": "datetime", "nullable": true }
+        ]
+      }
+    },
+    "points": {
+      "pts_gifts": {
+        "cnName": "积分礼品",
+        "entityName": "PtsGift",
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "Name", "type": "nvarchar(200)", "required": true },
+          { "name": "Image", "type": "nvarchar(500)", "required": false },
+          { "name": "Points", "type": "int", "required": true },
+          { "name": "Stock", "type": "int", "required": true },
+          { "name": "Sort", "type": "int", "required": true },
+          { "name": "Enable", "type": "tinyint", "required": true },
+          { "name": "CreateID", "type": "int", "nullable": true },
+          { "name": "Creator", "type": "nvarchar(200)", "nullable": true },
+          { "name": "CreateDate", "type": "datetime", "nullable": true },
+          { "name": "ModifyID", "type": "int", "nullable": true },
+          { "name": "Modifier", "type": "nvarchar(200)", "nullable": true },
+          { "name": "ModifyDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "pts_gift_orders": {
+        "cnName": "积分兑换订单",
+        "entityName": "PtsGiftOrder",
+        "readonly": true,
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "OrderNo", "type": "nvarchar(100)", "required": true },
+          { "name": "MemberId", "type": "bigint", "nullable": true },
+          { "name": "Username", "type": "nvarchar(100)", "required": false },
+          { "name": "GiftId", "type": "bigint", "nullable": true },
+          { "name": "GiftName", "type": "nvarchar(200)", "required": false },
+          { "name": "GiftImage", "type": "nvarchar(500)", "required": false },
+          { "name": "Points", "type": "int", "required": true },
+          { "name": "Quantity", "type": "int", "required": true },
+          { "name": "TotalPoints", "type": "int", "required": true },
+          { "name": "Status", "type": "int", "required": true },
+          { "name": "ShippingName", "type": "nvarchar(50)", "required": false },
+          { "name": "ShippingPhone", "type": "nvarchar(20)", "required": false },
+          { "name": "ShippingAddress", "type": "nvarchar(500)", "required": false },
+          { "name": "Remark", "type": "nvarchar(500)", "required": false },
+          { "name": "CreateDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "pts_accounts": {
+        "cnName": "积分账户",
+        "entityName": "PtsAccount",
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "MemberId", "type": "bigint", "nullable": true },
+          { "name": "Username", "type": "nvarchar(100)", "required": false },
+          { "name": "Balance", "type": "int", "required": true },
+          { "name": "TotalEarned", "type": "int", "required": true },
+          { "name": "TotalSpent", "type": "int", "required": true },
+          { "name": "CreateDate", "type": "datetime", "nullable": true },
+          { "name": "ModifyDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "pts_flows": {
+        "cnName": "积分流水",
+        "entityName": "PtsFlow",
+        "readonly": true,
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "MemberId", "type": "bigint", "nullable": true },
+          { "name": "Username", "type": "nvarchar(100)", "required": false },
+          { "name": "Type", "type": "int", "required": true },
+          { "name": "Points", "type": "int", "required": true },
+          { "name": "BeforeBalance", "type": "int", "required": true },
+          { "name": "AfterBalance", "type": "int", "required": true },
+          { "name": "OrderNo", "type": "nvarchar(100)", "required": false },
+          { "name": "Remark", "type": "nvarchar(500)", "required": false },
+          { "name": "CreateDate", "type": "datetime", "nullable": true }
+        ]
+      }
+    },
+    "activities": {
+      "act_activities": {
+        "cnName": "活动",
+        "entityName": "ActActivity",
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "Title", "type": "nvarchar(200)", "required": true },
+          { "name": "Description", "type": "nvarchar(max)", "required": false },
+          { "name": "Image", "type": "nvarchar(500)", "required": false },
+          { "name": "Type", "type": "int", "required": true },
+          { "name": "StartTime", "type": "datetime", "nullable": true },
+          { "name": "EndTime", "type": "datetime", "nullable": true },
+          { "name": "Sort", "type": "int", "required": true },
+          { "name": "Enable", "type": "tinyint", "required": true },
+          { "name": "CreateID", "type": "int", "nullable": true },
+          { "name": "Creator", "type": "nvarchar(200)", "nullable": true },
+          { "name": "CreateDate", "type": "datetime", "nullable": true },
+          { "name": "ModifyID", "type": "int", "nullable": true },
+          { "name": "Modifier", "type": "nvarchar(200)", "nullable": true },
+          { "name": "ModifyDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "act_prizes": {
+        "cnName": "活动奖品",
+        "entityName": "ActPrize",
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "ActivityId", "type": "bigint", "nullable": true },
+          { "name": "Name", "type": "nvarchar(200)", "required": true },
+          { "name": "Image", "type": "nvarchar(500)", "required": false },
+          { "name": "Probability", "type": "decimal(10,6)", "required": true },
+          { "name": "Quantity", "type": "int", "required": true },
+          { "name": "Remaining", "type": "int", "required": true },
+          { "name": "Sort", "type": "int", "required": true },
+          { "name": "Enable", "type": "tinyint", "required": true },
+          { "name": "CreateID", "type": "int", "nullable": true },
+          { "name": "Creator", "type": "nvarchar(200)", "nullable": true },
+          { "name": "CreateDate", "type": "datetime", "nullable": true },
+          { "name": "ModifyID", "type": "int", "nullable": true },
+          { "name": "Modifier", "type": "nvarchar(200)", "nullable": true },
+          { "name": "ModifyDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "act_accounts": {
+        "cnName": "活动参与记录",
+        "entityName": "ActAccount",
+        "readonly": true,
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "ActivityId", "type": "bigint", "nullable": true },
+          { "name": "MemberId", "type": "bigint", "nullable": true },
+          { "name": "Username", "type": "nvarchar(100)", "required": false },
+          { "name": "ParticipateTime", "type": "datetime", "nullable": true },
+          { "name": "CreateDate", "type": "datetime", "nullable": true }
+        ]
+      },
+      "act_partners": {
+        "cnName": "活动合作方",
+        "entityName": "ActPartner",
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "ActivityId", "type": "bigint", "nullable": true },
+          { "name": "Name", "type": "nvarchar(200)", "required": true },
+          { "name": "Image", "type": "nvarchar(500)", "required": false },
+          { "name": "Link", "type": "nvarchar(1000)", "required": false },
+          { "name": "Sort", "type": "int", "required": true },
+          { "name": "Visible", "type": "tinyint", "required": true },
+          { "name": "CreateID", "type": "int", "nullable": true },
+          { "name": "Creator", "type": "nvarchar(200)", "nullable": true },
+          { "name": "CreateDate", "type": "datetime", "nullable": true },
+          { "name": "ModifyID", "type": "int", "nullable": true },
+          { "name": "Modifier", "type": "nvarchar(200)", "nullable": true },
+          { "name": "ModifyDate", "type": "datetime", "nullable": true }
+        ]
+      }
+    },
+    "websites": {
+      "web_customers": {
+        "cnName": "站点客户",
+        "entityName": "WebCustomer",
+        "primaryKey": { "name": "Id", "type": "bigint" },
+        "fields": [
+          { "name": "Id", "type": "bigint", "key": true, "required": true },
+          { "name": "Name", "type": "nvarchar(200)", "required": true },
+          { "name": "Domain", "type": "nvarchar(500)", "required": false },
+          { "name": "Logo", "type": "nvarchar(500)", "required": false },
+          { "name": "ContactName", "type": "nvarchar(50)", "required": false },
+          { "name": "ContactPhone", "type": "nvarchar(20)", "required": false },
+          { "name": "ContactEmail", "type": "nvarchar(200)", "required": false },
+          { "name": "Status", "type": "int", "required": true },
+          { "name": "CreateID", "type": "int", "nullable": true },
+          { "name": "Creator", "type": "nvarchar(200)", "nullable": true },
+          { "name": "CreateDate", "type": "datetime", "nullable": true },
+          { "name": "ModifyID", "type": "int", "nullable": true },
+          { "name": "Modifier", "type": "nvarchar(200)", "nullable": true },
+          { "name": "ModifyDate", "type": "datetime", "nullable": true }
+        ]
+      }
+    }
+  },
+  "pageRoutes": [
+    { "path": "/home", "name": "home", "component": "Home" },
+    { "path": "/Sys_Group", "name": "Sys_Group", "component": "system/Sys_Group" },
+    { "path": "/Sys_Position", "name": "Sys_Position", "component": "system/Sys_Position" },
+    { "path": "/Sys_Org", "name": "Sys_Org", "component": "system/Sys_Org" },
+    { "path": "/Sys_Strategy", "name": "Sys_Strategy", "component": "system/Sys_Strategy" },
+    { "path": "/Sys_File", "name": "Sys_File", "component": "system/Sys_File" },
+    { "path": "/Sys_FileReference", "name": "Sys_FileReference", "component": "system/Sys_FileReference" },
+    { "path": "/Sys_OperationLog", "name": "Sys_OperationLog", "component": "system/Sys_OperationLog" },
+    { "path": "/Sys_UserLoginLog", "name": "Sys_UserLoginLog", "component": "system/Sys_UserLoginLog" },
+    { "path": "/Mkt_Member", "name": "Mkt_Member", "component": "marketing/Mkt_Member" },
+    { "path": "/Mkt_Level", "name": "Mkt_Level", "component": "marketing/Mkt_Level" },
+    { "path": "/Mkt_Notice", "name": "Mkt_Notice", "component": "marketing/Mkt_Notice" },
+    { "path": "/Mkt_MemberLoginLog", "name": "Mkt_MemberLoginLog", "component": "marketing/Mkt_MemberLoginLog" },
+    { "path": "/Mkt_MemberStatistic", "name": "Mkt_MemberStatistic", "component": "marketing/Mkt_MemberStatistic" },
+    { "path": "/Mkt_MemberDateStatistic", "name": "Mkt_MemberDateStatistic", "component": "marketing/Mkt_MemberDateStatistic" },
+    { "path": "/Mkt_PerformanceStatistic", "name": "Mkt_PerformanceStatistic", "component": "marketing/Mkt_PerformanceStatistic" },
+    { "path": "/Mkt_MemberDuplicateIp", "name": "Mkt_MemberDuplicateIp", "component": "marketing/Mkt_MemberDuplicateIp" },
+    { "path": "/Mkt_WithdrawalAccountApproveLog", "name": "Mkt_WithdrawalAccountApproveLog", "component": "marketing/Mkt_WithdrawalAccountApproveLog" },
+    { "path": "/Mkt_OrderDetail", "name": "Mkt_OrderDetail", "component": "marketing/Mkt_OrderDetail" },
+    { "path": "/Mkt_RechargeRecord", "name": "Mkt_RechargeRecord", "component": "marketing/Mkt_RechargeRecord" },
+    { "path": "/Mkt_WithdrawalRecord", "name": "Mkt_WithdrawalRecord", "component": "marketing/Mkt_WithdrawalRecord" },
+    { "path": "/Mkt_TradingFlow", "name": "Mkt_TradingFlow", "component": "marketing/Mkt_TradingFlow" },
+    { "path": "/Mkt_YuebaoAccount", "name": "Mkt_YuebaoAccount", "component": "marketing/Mkt_YuebaoAccount" },
+    { "path": "/Mkt_YuebaoTradingFlow", "name": "Mkt_YuebaoTradingFlow", "component": "marketing/Mkt_YuebaoTradingFlow" },
+    { "path": "/Mkt_Banner", "name": "Mkt_Banner", "component": "marketing/Mkt_Banner" },
+    { "path": "/Mkt_Bulletin", "name": "Mkt_Bulletin", "component": "marketing/Mkt_Bulletin" },
+    { "path": "/Mkt_CustomerService", "name": "Mkt_CustomerService", "component": "marketing/Mkt_CustomerService" },
+    { "path": "/Mkt_Setting", "name": "Mkt_Setting", "component": "marketing/Mkt_Setting" },
+    { "path": "/Mkt_Statistic", "name": "Mkt_Statistic", "component": "marketing/Mkt_Statistic" },
+    { "path": "/Mkt_WithdrawalKind", "name": "Mkt_WithdrawalKind", "component": "marketing/Mkt_WithdrawalKind" },
+    { "path": "/Mkt_Wallet", "name": "Mkt_Wallet", "component": "marketing/Mkt_Wallet" },
+    { "path": "/Mkt_Recruitment", "name": "Mkt_Recruitment", "component": "marketing/Mkt_Recruitment" },
+    { "path": "/Mkt_Spu", "name": "Mkt_Spu", "component": "marketing/Mkt_Spu" },
+    { "path": "/Mkt_Category", "name": "Mkt_Category", "component": "marketing/Mkt_Category" },
+    { "path": "/Pts_Gift", "name": "Pts_Gift", "component": "points/Pts_Gift" },
+    { "path": "/Pts_GiftOrder", "name": "Pts_GiftOrder", "component": "points/Pts_GiftOrder" },
+    { "path": "/Pts_Account", "name": "Pts_Account", "component": "points/Pts_Account" },
+    { "path": "/Pts_Flow", "name": "Pts_Flow", "component": "points/Pts_Flow" },
+    { "path": "/Act_Activity", "name": "Act_Activity", "component": "activities/Act_Activity" },
+    { "path": "/Act_Prize", "name": "Act_Prize", "component": "activities/Act_Prize" },
+    { "path": "/Act_Account", "name": "Act_Account", "component": "activities/Act_Account" },
+    { "path": "/Act_Partner", "name": "Act_Partner", "component": "activities/Act_Partner" },
+    { "path": "/Web_Customer", "name": "Web_Customer", "component": "websites/Web_Customer" }
+  ],
+  "controllerMappings": [
+    { "entityName": "Sys_Group", "route": "api/Sys_Group", "service": "ISys_GroupService", "baseParams": ["System","System","Sys_Group"] },
+    { "entityName": "Sys_Position", "route": "api/Sys_Position", "service": "ISys_PositionService", "baseParams": ["System","System","Sys_Position"] },
+    { "entityName": "Sys_Org", "route": "api/Sys_Org", "service": "ISys_OrgService", "baseParams": ["System","System","Sys_Org"] },
+    { "entityName": "Sys_Strategy", "route": "api/Sys_Strategy", "service": "ISys_StrategyService", "baseParams": ["System","System","Sys_Strategy"] },
+    { "entityName": "Sys_File", "route": "api/Sys_File", "service": "ISys_FileService", "baseParams": ["System","System","Sys_File"] },
+    { "entityName": "Sys_FileReference", "route": "api/Sys_FileReference", "service": "ISys_FileReferenceService", "baseParams": ["System","System","Sys_FileReference"] },
+    { "entityName": "Sys_OperationLog", "route": "api/Sys_OperationLog", "service": "ISys_OperationLogService", "baseParams": ["System","System","Sys_OperationLog"] },
+    { "entityName": "Sys_UserLoginLog", "route": "api/Sys_UserLoginLog", "service": "ISys_UserLoginLogService", "baseParams": ["System","System","Sys_UserLoginLog"] },
+    { "entityName": "MktMember", "route": "api/Mkt_Member", "service": "IMkt_MemberService", "baseParams": ["Marketing","Marketing","MktMember"] },
+    { "entityName": "MktLevel", "route": "api/Mkt_Level", "service": "IMkt_LevelService", "baseParams": ["Marketing","Marketing","MktLevel"] },
+    { "entityName": "MktNotice", "route": "api/Mkt_Notice", "service": "IMkt_NoticeService", "baseParams": ["Marketing","Marketing","MktNotice"] },
+    { "entityName": "MktMemberLoginLog", "route": "api/Mkt_MemberLoginLog", "service": "IMkt_MemberLoginLogService", "baseParams": ["Marketing","Marketing","MktMemberLoginLog"] },
+    { "entityName": "MktMemberStatistic", "route": "api/Mkt_MemberStatistic", "service": "IMkt_MemberStatisticService", "baseParams": ["Marketing","Marketing","MktMemberStatistic"] },
+    { "entityName": "MktMemberDateStatistic", "route": "api/Mkt_MemberDateStatistic", "service": "IMkt_MemberDateStatisticService", "baseParams": ["Marketing","Marketing","MktMemberDateStatistic"] },
+    { "entityName": "MktPerformanceStatistic", "route": "api/Mkt_PerformanceStatistic", "service": "IMkt_PerformanceStatisticService", "baseParams": ["Marketing","Marketing","MktPerformanceStatistic"] },
+    { "entityName": "MktMemberDuplicateIp", "route": "api/Mkt_MemberDuplicateIp", "service": "IMkt_MemberDuplicateIpService", "baseParams": ["Marketing","Marketing","MktMemberDuplicateIp"] },
+    { "entityName": "MktWithdrawalAccountApproveLog", "route": "api/Mkt_WithdrawalAccountApproveLog", "service": "IMkt_WithdrawalAccountApproveLogService", "baseParams": ["Marketing","Marketing","MktWithdrawalAccountApproveLog"] },
+    { "entityName": "MktOrderDetail", "route": "api/Mkt_OrderDetail", "service": "IMkt_OrderDetailService", "baseParams": ["Marketing","Marketing","MktOrderDetail"] },
+    { "entityName": "MktRechargeRecord", "route": "api/Mkt_RechargeRecord", "service": "IMkt_RechargeRecordService", "baseParams": ["Marketing","Marketing","MktRechargeRecord"] },
+    { "entityName": "MktWithdrawalRecord", "route": "api/Mkt_WithdrawalRecord", "service": "IMkt_WithdrawalRecordService", "baseParams": ["Marketing","Marketing","MktWithdrawalRecord"] },
+    { "entityName": "MktTradingFlow", "route": "api/Mkt_TradingFlow", "service": "IMkt_TradingFlowService", "baseParams": ["Marketing","Marketing","MktTradingFlow"] },
+    { "entityName": "MktYuebaoAccount", "route": "api/Mkt_YuebaoAccount", "service": "IMkt_YuebaoAccountService", "baseParams": ["Marketing","Marketing","MktYuebaoAccount"] },
+    { "entityName": "MktYuebaoTradingFlow", "route": "api/Mkt_YuebaoTradingFlow", "service": "IMkt_YuebaoTradingFlowService", "baseParams": ["Marketing","Marketing","MktYuebaoTradingFlow"] },
+    { "entityName": "MktBanner", "route": "api/Mkt_Banner", "service": "IMkt_BannerService", "baseParams": ["Marketing","Marketing","MktBanner"] },
+    { "entityName": "MktBulletin", "route": "api/Mkt_Bulletin", "service": "IMkt_BulletinService", "baseParams": ["Marketing","Marketing","MktBulletin"] },
+    { "entityName": "MktCustomerService", "route": "api/Mkt_CustomerService", "service": "IMkt_CustomerServiceService", "baseParams": ["Marketing","Marketing","MktCustomerService"] },
+    { "entityName": "MktSetting", "route": "api/Mkt_Setting", "service": "IMkt_SettingService", "baseParams": ["Marketing","Marketing","MktSetting"] },
+    { "entityName": "MktStatistic", "route": "api/Mkt_Statistic", "service": "IMkt_StatisticService", "baseParams": ["Marketing","Marketing","MktStatistic"] },
+    { "entityName": "MktWithdrawalKind", "route": "api/Mkt_WithdrawalKind", "service": "IMkt_WithdrawalKindService", "baseParams": ["Marketing","Marketing","MktWithdrawalKind"] },
+    { "entityName": "MktWallet", "route": "api/Mkt_Wallet", "service": "IMkt_WalletService", "baseParams": ["Marketing","Marketing","MktWallet"] },
+    { "entityName": "MktRecruitment", "route": "api/Mkt_Recruitment", "service": "IMkt_RecruitmentService", "baseParams": ["Marketing","Marketing","MktRecruitment"] },
+    { "entityName": "MktSpu", "route": "api/Mkt_Spu", "service": "IMkt_SpuService", "baseParams": ["Marketing","Marketing","MktSpu"] },
+    { "entityName": "MktCategory", "route": "api/Mkt_Category", "service": "IMkt_CategoryService", "baseParams": ["Marketing","Marketing","MktCategory"] },
+    { "entityName": "PtsGift", "route": "api/Pts_Gift", "service": "IPts_GiftService", "baseParams": ["Points","Points","PtsGift"] },
+    { "entityName": "PtsGiftOrder", "route": "api/Pts_GiftOrder", "service": "IPts_GiftOrderService", "baseParams": ["Points","Points","PtsGiftOrder"] },
+    { "entityName": "PtsAccount", "route": "api/Pts_Account", "service": "IPts_AccountService", "baseParams": ["Points","Points","PtsAccount"] },
+    { "entityName": "PtsFlow", "route": "api/Pts_Flow", "service": "IPts_FlowService", "baseParams": ["Points","Points","PtsFlow"] },
+    { "entityName": "ActActivity", "route": "api/Act_Activity", "service": "IAct_ActivityService", "baseParams": ["Activities","Activities","ActActivity"] },
+    { "entityName": "ActPrize", "route": "api/Act_Prize", "service": "IAct_PrizeService", "baseParams": ["Activities","Activities","ActPrize"] },
+    { "entityName": "ActAccount", "route": "api/Act_Account", "service": "IAct_AccountService", "baseParams": ["Activities","Activities","ActAccount"] },
+    { "entityName": "ActPartner", "route": "api/Act_Partner", "service": "IAct_PartnerService", "baseParams": ["Activities","Activities","ActPartner"] },
+    { "entityName": "WebCustomer", "route": "api/Web_Customer", "service": "IWeb_CustomerService", "baseParams": ["Websites","Websites","WebCustomer"] }
+  ]
+}
