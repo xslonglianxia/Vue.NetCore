@@ -1,0 +1,127 @@
+{
+  "name": "vol-fullstack-dev",
+  "displayName": "VOL 全栈开发（Vue.NetCore）",
+  "version": "1.0.0",
+  "description": "Vue.NetCore（VOL）前后端分离框架的全栈开发技能。支持基于 EFCore 与 SqlSugar 双 ORM 实现的 .NET 8/10 后端 + Vue 3 + Vite + TypeScript 前端，覆盖业务模块搭建、代码生成器使用、ServiceBase/RepositoryBase 扩展、VolTable/VolForm 组件开发、工作流与表单设计器、权限与多租户、多数据库切换（MySQL/SQLServer/PG/Oracle/达梦）、信创国密方案与 Docker 部署。",
+  "triggers": {
+    "keywords": [
+      "vol",
+      "VOL",
+      "Vue.NetCore",
+      "vue.netcore",
+      "前后端分离",
+      "代码生成器",
+      "MES",
+      "主从表",
+      "一主多从",
+      "多库适配",
+      "信创",
+      "国密",
+      "vol.web",
+      "vol.api",
+      "vol.api.sqlsugar"
+    ],
+    "intents": [
+      "在 VOL 框架上搭建新业务模块",
+      "使用代码生成器生成前后端代码",
+      "在 ServiceBase / RepositoryBase 上做业务扩展",
+      "配置 VolTable / VolForm / VolBox 组件",
+      "配置工作流与表单设计器",
+      "切换 EFCore 与 SqlSugar",
+      "切换数据库类型（MySQL / SQLServer / PG / Oracle / 达梦）",
+      "配置多租户 / 字段权限 / 数据权限",
+      "Docker 部署 VOL 框架",
+      "对 Vol.WebApi 进行性能调优与安全加固"
+    ]
+  },
+  "scope": {
+    "applicable": [
+      "vol.api（.NET 8 + EFCore 8 + Dapper）",
+      "vol.api.sqlsugar（.NET 10 + SqlSugar 5.1）",
+      "vol.web（Vue 3 + Vite + TypeScript + Element Plus）",
+      "任意基于 VOL.Core 改造的衍生项目"
+    ],
+    "inapplicable": [
+      "无 VOL 依赖的全新独立产品",
+      "非前后端分离的纯后端 / 纯前端项目",
+      "非 .NET 平台（请使用同类框架的对应 Skill）"
+    ]
+  },
+  "knowledge_base": {
+    "wiki_root": "CodeWiki/",
+    "documents": [
+      { "id": "01", "title": "项目总览与架构", "path": "CodeWiki/01-项目总览与架构.md" },
+      { "id": "02", "title": "后端架构 (vol.api / EFCore)", "path": "CodeWiki/02-后端架构-vol.api-EFCore版.md" },
+      { "id": "03", "title": "后端架构 (vol.api.sqlsugar)", "path": "CodeWiki/03-后端架构-vol.api.sqlsugar版.md" },
+      { "id": "04", "title": "前端架构 (vol.web)", "path": "CodeWiki/04-前端架构-vol.web.md" },
+      { "id": "05", "title": "关键模块与类参考", "path": "CodeWiki/05-关键模块与类参考.md" },
+      { "id": "06", "title": "依赖与环境要求", "path": "CodeWiki/06-依赖与环境要求.md" },
+      { "id": "07", "title": "数据库与脚本", "path": "CodeWiki/07-数据库与脚本.md" },
+      { "id": "08", "title": "运行与部署指南", "path": "CodeWiki/08-运行与部署指南.md" },
+      { "id": "09", "title": "全栈开发技能 (Skill)", "path": "CodeWiki/09-全栈开发技能.md" }
+    ]
+  },
+  "workflow": {
+    "steps": [
+      "环境准备（.NET SDK / Node.js / 数据库 / Redis）",
+      "数据库初始化（DB/<dbtype>/*.sql）",
+      "后端工程搭建（VOL.Core / VOL.Entity / VOL.<Module>）",
+      "使用代码生成器生成前后端代码",
+      "前端 VolTable / VolForm 页面开发",
+      "ServiceBase 业务扩展回调（AddOnExecuting / SummaryExpress ...）",
+      "权限与多租户配置",
+      "审批流接入（WorkFlowContainer.Use<T>）",
+      "表单设计器接入（Form_DesignOptions）",
+      "测试 + Docker 部署"
+    ]
+  },
+  "code_templates": {
+    "entity": "public class MES_Order : BaseEntity { ... }",
+    "repository": "public class MES_OrderRepository : RepositoryBase<MES_Order> { public MES_OrderRepository(BaseDbContext ctx) : base(ctx) {} }",
+    "service": "public class MES_OrderService : ServiceBase<MES_Order, MES_OrderRepository> { public MES_OrderService(MES_OrderRepository repo) : base(repo) {} }",
+    "controller": "[Route(\"api/MES_Order\")] public class MES_OrderController : ApiBaseController<MES_Order> { public MES_OrderController(IMES_OrderService svc) : base(svc) {} }",
+    "vue": "<vol-table :columns=\"columns\" :table-data=\"data\" />"
+  },
+  "best_practices": [
+    "实体必须继承 BaseEntity",
+    "审计字段（CreateID/Creator/CreateDate/ModifyID/Modifier/ModifyDate）由框架自动填充",
+    "业务校验放在 AddOnExecuting / UpdateOnExecuting 中",
+    "复杂 SQL 走 Dapper，简单 CRUD 走 EFCore / SqlSugar",
+    "主从表通过 MultipleTableEntity 配置",
+    "字典绑定走 Sys_Dictionary + VolForm 自动",
+    "权限收敛到具体域名（生产环境）",
+    "JWT / Secret / QuartzAccessKey 在生产环境必须修改",
+    "数据库连接字符串建议使用框架加密",
+    "Docker 部署时使用独立日志卷与时区卷"
+  ],
+  "commands": {
+    "dev_backend_efcore": "cd vol.api && dotnet run --project VOL.WebApi",
+    "dev_backend_sqlsugar": "cd vol.api.sqlsugar && dotnet run --project VOL.WebApi",
+    "dev_frontend": "cd vol.web && npm install && npm run dev",
+    "build_backend": "dotnet publish VOL.WebApi -c Release -o publish",
+    "build_frontend": "cd vol.web && npm run build",
+    "docker_build": "docker build -t volapi:1.0 -f VOL.WebApi/Dockerfile .",
+    "docker_run": "docker run -d --name volapi -p 9991:8080 volapi:1.0"
+  },
+  "ports": {
+    "frontend_dev": 9990,
+    "backend": 9991,
+    "signalr": "9991/message",
+    "mysql": 3306,
+    "sqlserver": 1433,
+    "postgresql": 5432,
+    "oracle": 1521,
+    "dm": 5236,
+    "redis": 6379
+  },
+  "default_accounts": {
+    "super_admin": { "username": "admin", "password": "123456" },
+    "demo_admin":  { "username": "admin666", "password": "123456" }
+  },
+  "notes": [
+    "删除演示代码：删除 vol.web/src/views/mes、vol.api/VOL.MES、VOL.WebApi/VOL.Entity 下的 mes 目录",
+    "代码生成器内部基于数据库表结构 + 配置项生成代码，30+ 可配置项",
+    "框架支持信创：SM2/SM3/SM4 国密算法已内置",
+    "框架同时支持工作流与低代码表单设计"
+  ]
+}
